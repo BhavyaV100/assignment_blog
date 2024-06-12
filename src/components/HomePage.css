@@ -1,0 +1,36 @@
+.homepage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .blog-posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .blog-post-card {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ffffff;
+    transition: transform 0.3s;
+  }
+  
+  .blog-post-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .blog-post-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .blog-post-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
